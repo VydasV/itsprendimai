@@ -17,22 +17,18 @@ const Navbar = () => {
   }, []);
   return (
     <nav>
-      <div className="nav-header">
-        <div className="logo">ITsprendimai</div>
-        <Hamburger toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      </div>
-      {(toggleMenu || screenWidth > 540) && (
-        <div className="links-container">
-          <ul className="list">
-            {menu.map((item, index) => {
-              return (
-                <li key={index + item} className="links">
-                  <a href="#">{item}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+      <div className="logo">ITsprendimai</div>
+      <Hamburger toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+      {(toggleMenu || screenWidth > 720) && (
+        <ul className="list">
+          {menu.map((item, index) => {
+            return (
+              <li key={index + item} className="links">
+                <a href="#">{item}</a>
+              </li>
+            );
+          })}
+        </ul>
       )}
     </nav>
   );
