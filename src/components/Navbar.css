@@ -5,6 +5,12 @@ nav {
   background: #eee;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   margin: 0 0 10px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +43,7 @@ nav {
 }
 
 @media screen and (max-width: 720px) {
-  nav {
+  .nav-container {
     flex-wrap: wrap;
   }
   .list {
