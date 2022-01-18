@@ -1,5 +1,4 @@
 import React from 'react';
-// import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -10,7 +9,6 @@ import ScrollToTop from './components/ScrollToTop';
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Navbar1 />
       <About />
       <Services />
