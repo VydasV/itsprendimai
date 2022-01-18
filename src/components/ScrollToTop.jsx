@@ -24,7 +24,7 @@ const ScrollToTop = () => {
     <>
       {showButton && (
         <button className="back-to-top" onClick={scrollToTop}>
-          <BsArrowUpCircle />
+          <BsArrowUpCircle className="scroll-icon" />
         </button>
       )}
     </>

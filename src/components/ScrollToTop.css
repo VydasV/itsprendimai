@@ -2,8 +2,15 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  font-size: 2rem;
   background: none;
-  color: #808080;
   cursor: pointer;
+}
+.scroll-icon {
+  font-size: 2rem;
+  color: #808080;
+  transition: all 0.3s linear;
+}
+
+.scroll-icon:hover {
+  font-size: 2.5rem;
 }
