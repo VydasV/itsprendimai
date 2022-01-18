@@ -5,18 +5,18 @@ import './Navbar1.css';
 const links = [
   {
     id: 1,
-    url: '/',
-    text: 'random',
+    url: '#about',
+    text: 'apie',
   },
   {
     id: 2,
-    url: '/about',
-    text: 'about',
+    url: '#services',
+    text: 'paslaugos',
   },
   {
     id: 3,
-    url: '/projects',
-    text: 'projects',
+    url: '#contacts',
+    text: 'kontaktai',
   },
 ];
 
