@@ -45,7 +45,7 @@ nav {
   height: 10rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 721px) {
   .nav-center {
     max-width: 1200px;
     margin: 0 auto;

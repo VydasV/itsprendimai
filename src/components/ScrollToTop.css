@@ -1,0 +1,9 @@
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  background: none;
+  color: #808080;
+  cursor: pointer;
+}
