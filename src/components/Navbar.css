@@ -34,6 +34,7 @@ nav {
   display: block;
   letter-spacing: 0.1rem;
   padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
 }
 
 .links :hover {
