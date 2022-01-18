@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-container">
         <div className="logo">ITsprendimai</div>
-        <Hamburger toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+        <Hamburger showMenu={toggleMenu} setShowMenu={setToggleMenu} />
         {(toggleMenu || screenWidth > 720) && (
           <ul className="list">
             {menu.map((item, index) => {

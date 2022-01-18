@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import './Hamburger.css';
 
-const Hamburger = ({ toggleMenu, setToggleMenu }) => {
+const Hamburger = ({ showMenu, setShowMenu }) => {
   const [hamburgerBtn, sethamburgerBtn] = useState(true);
 
   return (
@@ -10,7 +10,7 @@ const Hamburger = ({ toggleMenu, setToggleMenu }) => {
       className={`hamburger ${hamburgerBtn ? '' : 'change'}`}
       onClick={() => {
         sethamburgerBtn(!hamburgerBtn);
-        setToggleMenu(!toggleMenu);
+        setShowMenu(!showMenu);
       }}
     >
       <div className="line line-1"></div>
