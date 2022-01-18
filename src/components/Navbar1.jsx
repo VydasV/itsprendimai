@@ -38,9 +38,7 @@ const Navbar1 = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <a href="/" className="logo">
-            LOGO
-          </a>
+          <div className="logo">LOGO</div>
           {/* <button
             className="nav-toggle"
             onClick={() => setShowLinks(!showLinks)}
