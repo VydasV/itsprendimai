@@ -32,7 +32,6 @@ const Navbar1 = () => {
     } else {
       linksContainerRef.current.style.height = '0';
     }
-    console.log(linksHeight);
   }, [showLinks]);
 
   return (

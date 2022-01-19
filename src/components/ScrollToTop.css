@@ -1,9 +1,13 @@
 .back-to-top {
+  display: none;
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   background: none;
   cursor: pointer;
+}
+.show_back-to-top {
+  display: block;
 }
 .scroll-icon {
   font-size: 2rem;

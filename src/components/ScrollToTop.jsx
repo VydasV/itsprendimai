@@ -6,27 +6,33 @@ import './ScrollToTop.css';
 const ScrollToTop = () => {
   const [showButton, setShowButton] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset > 100) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    });
-  }, []);
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 100) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0 });
   };
 
+  useEffect(() => {
+    window.addEventListener('scroll', toggleVisibility);
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
+
   return (
     <>
-      {showButton && (
-        <button className="back-to-top" onClick={scrollToTop}>
-          <BsArrowUpCircle className="scroll-icon" />
-        </button>
-      )}
+      <button
+        className={`back-to-top ${showButton ? 'show_back-to-top' : ''}`}
+        onClick={scrollToTop}
+      >
+        <BsArrowUpCircle className="scroll-icon" />
+      </button>
     </>
   );
 };
