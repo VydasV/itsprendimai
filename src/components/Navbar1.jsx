@@ -19,6 +19,8 @@ const links = [
     text: 'kontaktai',
   },
 ];
+// const links = [];
+const isLinks = links.length !== 0;
 
 const Navbar1 = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -44,7 +46,9 @@ const Navbar1 = () => {
             onClick={() => setShowLinks(!showLinks)}
           > 
           </button> */}
-          <Hamburger showMenu={showLinks} setShowMenu={setShowLinks} />
+          {isLinks && (
+            <Hamburger showMenu={showLinks} setShowMenu={setShowLinks} />
+          )}
         </div>
         <div className="links-container" ref={linksContainerRef}>
           <ul className="links" ref={linksRef}>
