@@ -1,0 +1,13 @@
+footer {
+  background: #eee;
+  margin-top: auto;
+  padding: 2rem 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

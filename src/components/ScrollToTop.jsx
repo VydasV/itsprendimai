@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BsArrowUpCircle } from 'react-icons/bs';
+import { ImCircleUp } from 'react-icons/im';
 
 import './ScrollToTop.css';
 
@@ -31,7 +31,7 @@ const ScrollToTop = () => {
         className={`back-to-top ${showButton ? 'show_back-to-top' : ''}`}
         onClick={scrollToTop}
       >
-        <BsArrowUpCircle className="scroll-icon" />
+        <ImCircleUp className="scroll-icon" />
       </button>
     </>
   );
