@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/itsprendimai/static/css/main.549ab1e2.css",
-    "main.js": "/itsprendimai/static/js/main.89fe7db1.js",
+    "main.css": "/itsprendimai/static/css/main.27244d91.css",
+    "main.js": "/itsprendimai/static/js/main.a8237b75.js",
     "index.html": "/itsprendimai/index.html",
-    "main.549ab1e2.css.map": "/itsprendimai/static/css/main.549ab1e2.css.map",
-    "main.89fe7db1.js.map": "/itsprendimai/static/js/main.89fe7db1.js.map"
+    "main.27244d91.css.map": "/itsprendimai/static/css/main.27244d91.css.map",
+    "main.a8237b75.js.map": "/itsprendimai/static/js/main.a8237b75.js.map"
   },
   "entrypoints": [
-    "static/css/main.549ab1e2.css",
-    "static/js/main.89fe7db1.js"
+    "static/css/main.27244d91.css",
+    "static/js/main.a8237b75.js"
   ]
 }
